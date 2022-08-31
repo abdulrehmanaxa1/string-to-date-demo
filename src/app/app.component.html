@@ -5,13 +5,13 @@
 <div>
 
   <div>
-    <button mat-button color="primary" (click)="testingDates(format1, 'ddmmyyyy')">Format1</button>
-    <button mat-button color="primary" (click)="testingDates(format2, 'dd/mm/yyyy')">Format2</button>
-    <button mat-button color="primary" (click)="testingDates(format3, 'mm/dd/yyyy')">Format3</button>
-    <button mat-button color="primary" (click)="testingDates(format4, 'yyyy-mm-dd')">Format4</button>
+    <button mat-raised-button color="primary" (click)="testingDates(format1, 'ddmmyyyy')" style="margin-right: 10px">Format1</button>
+    <button mat-raised-button color="primary" (click)="testingDates(format2, 'dd/mm/yyyy')" style="margin-right: 10px">Format2</button>
+    <button mat-raised-button color="primary" (click)="testingDates(format3, 'mm/dd/yyyy')" style="margin-right: 10px">Format3</button>
+    <button mat-raised-button color="primary" (click)="testingDates(format4, 'yyyy-mm-dd')">Format4</button>
   </div>
 
-  <div style="display: block">
+  <div style="margin-top: 10px">
     <form [formGroup] = "form">
       <mat-form-field appearance="fill">
         <mat-label>Choose a date</mat-label>
